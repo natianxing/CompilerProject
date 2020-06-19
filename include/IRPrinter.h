@@ -27,7 +27,7 @@
 
 #include <string>
 #include <sstream>
-
+#include <iomanip>
 #include "IRVisitor.h"
 
 
@@ -37,11 +37,15 @@ namespace Internal {
 
 class IRPrinter : public IRVisitor {
  public:
-    IRPrinter() : IRVisitor() {
+    IRPrinter(std::string _datatype) : IRVisitor() {
         indent = 0;
         print_range = false;
         print_arg = false;
+        declarationmove=false;
+        datatype=_datatype;
     }
+
+    std::string datatype;
     std::string print(const Expr&);
     std::string print(const Stmt&);
     std::string print(const Group&);
@@ -82,6 +86,9 @@ class IRPrinter : public IRVisitor {
     int indent;
     bool print_range;
     bool print_arg;
+    bool print_type;
+    std::string cur_ind_name;
+    bool declarationmove;
 };
 
 }  // namespace Internal
