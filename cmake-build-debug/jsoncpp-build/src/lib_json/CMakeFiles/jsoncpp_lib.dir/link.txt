@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc ..\..\..\lib\libjsoncpp.a  CMakeFiles/jsoncpp_lib.dir/json_reader.cpp.obj CMakeFiles/jsoncpp_lib.dir/json_value.cpp.obj CMakeFiles/jsoncpp_lib.dir/json_writer.cpp.obj
+C:\MinGW\bin\ranlib.exe ..\..\..\lib\libjsoncpp.a

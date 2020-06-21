@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/project2/clean/clean2.cc
+fstream
+-
+string
+-
+

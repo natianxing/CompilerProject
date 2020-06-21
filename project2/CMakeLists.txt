@@ -6,7 +6,7 @@ file(GLOB clean_src "./clean/*.cc")
 include_directories("../include")
 
 add_executable(test2 ${test_src} ${kernel_src})
-add_executable(solution2 ${solution_src})
+add_executable(solution2 ${solution_src} solution/exp_converter.h solution/exp_converter.cc)
 target_link_libraries(solution2 ${LIB_NAME})
 add_executable(cleanf2 ${clean_src})
 

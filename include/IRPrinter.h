@@ -37,6 +37,11 @@ namespace Internal {
 
 class IRPrinter : public IRVisitor {
  public:
+    IRPrinter() : IRVisitor() {
+        indent = 0;
+        print_range = false;
+        print_arg = false;
+    }
     IRPrinter(std::string _datatype) : IRVisitor() {
         indent = 0;
         print_range = false;

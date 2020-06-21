@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JSONCPP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\jsoncpp\;CMake Files\3rdparty\jsoncpp\pkg-config\;CMake Files\3rdparty\jsoncpp\src\;CMake Files\3rdparty\jsoncpp\src\lib_json\;CMake Files\3rdparty\jsoncpp\src\jsontestrunner\;CMake Files\3rdparty\jsoncpp\src\test_lib_json\;CMake Files\3rdparty\jsoncpp\include\;CMake Files\test\;CMake Files\project1\;CMake Files\project2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_lib">
+				<Option output="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/lib/libjsoncpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/include"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/include/json"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_lib/fast">
+				<Option output="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/lib/libjsoncpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/include"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/include/json"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsontestrunner_exe">
+				<Option output="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/bin/jsontestrunner_exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/include"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/include/json"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsontestrunner_exe/fast">
+				<Option output="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/bin/jsontestrunner_exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/include"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/include/json"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_readerwriter_tests">
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_readerwriter_tests"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_check">
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_check"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_test">
+				<Option output="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/bin/jsoncpp_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/include"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/include/json"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_test/fast">
+				<Option output="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/bin/jsoncpp_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/include"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/include/json"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/cmake-build-debug/jsoncpp-build/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/include/json/assertions.h">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/include/json/config.h">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/include/json/forwards.h">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/include/json/json_features.h">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/include/json/reader.h">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/include/json/value.h">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/include/json/version.h">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/include/json/writer.h">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/jsontestrunner/main.cpp">
+			<Option target="jsontestrunner_exe"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/json_reader.cpp">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/json_tool.h">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/json_value.cpp">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/json_valueiterator.inl">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/json_writer.cpp">
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/test_lib_json/fuzz.cpp">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/test_lib_json/fuzz.h">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/test_lib_json/jsontest.cpp">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/test_lib_json/jsontest.h">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/test_lib_json/main.cpp">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\jsoncpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/CTestConfig.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\jsoncpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/version.in">
+			<Option virtualFolder="CMake Files\3rdparty\jsoncpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/pkg-config/jsoncpp.pc.in">
+			<Option virtualFolder="CMake Files\3rdparty\jsoncpp\pkg-config\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\jsoncpp\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/lib_json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\jsoncpp\src\lib_json\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/jsontestrunner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\jsoncpp\src\jsontestrunner\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/src/test_lib_json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\jsoncpp\src\test_lib_json\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/3rdparty/jsoncpp/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\jsoncpp\include\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/project1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project1\"/>
+		</Unit>
+		<Unit filename="C:/Users/luoyuchu/Desktop/Currrent_Semester/CompilerProject-2020Spring/project2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
